@@ -1,0 +1,23 @@
+.centered {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+  #logo {
+    top:40%;
+  }
+  #heading1 {
+    top: 61%;
+    font-size: 50px;
+  }
+  #heading2 {
+    top: 75%;
+    font-size: 50px;
+  }
+  #paragraph {
+    top: 85%;
+  }
+  #mouse-click {
+    top: 111%;
+  }
