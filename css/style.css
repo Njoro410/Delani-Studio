@@ -21,9 +21,21 @@
   #mouse-click {
     top: 111%;
   }
-  .about-sec {
+  .bodyheadings {
     text-align: center;
   }
   #title {
     margin-top: 50px;
+  }
+  #services-heading {
+    margin-top: -210px;
+  }
+  #paragraph2 {
+    margin-top: -175px;
+    color: #fff;
+    font-size:medium ;
+  }
+  #paragraph3 {
+    color: #fff;
+    font-size:medium ;
   }
