@@ -43,3 +43,11 @@
   margin-top: 50px;
   margin-bottom: 50px;
 }
+.col-sm-4 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.caption {
+  display: block;
+}
