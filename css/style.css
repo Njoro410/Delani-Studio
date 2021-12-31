@@ -95,3 +95,19 @@
 .des-p {
   margin-top: -11px;
 }
+.img-porfolio:hover {
+  filter: blur(1.5px);
+}
+#p-img1, #p-img2, #p-img3, #p-img4, #p-img5, #p-img6, #p-img7, #p-img8 {
+  position: relative;
+}
+#project-name1, #project-name2, #project-name3, #project-name4, #project-name5, #project-name6, #project-name7,#project-name8  {
+  display: none;
+  position:absolute;
+  bottom: 50px;
+  right: 50px;
+  background-color: white;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
