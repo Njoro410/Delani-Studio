@@ -43,12 +43,24 @@
   margin-top: 50px;
   margin-bottom: 50px;
 }
+.wwd-description1 {
+  display: none;
+  text-align: center;
+}
+.wwd-description2 {
+  display: none;
+  text-align: center;
+}
+.wwd-description3 {
+  display: none;
+  text-align: center;
+}
 .col-sm-4 {
   display: flex;
   justify-content: center;
   text-align: center;
 }
-.caption {
+#caption {
   display: block;
 }
 #portfolio-heading {
@@ -68,4 +80,18 @@
 }
 #contact-heading {
   margin-top: -400px;
+}
+#con-soc-icons {
+  display: flex;
+  justify-content: center;
+}
+.social-icons {
+  margin-top: -50px;
+  margin: 8px;
+}
+.social-icons:hover {
+  cursor: pointer;
+}
+.des-p {
+  margin-top: -11px;
 }
