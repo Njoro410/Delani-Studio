@@ -144,3 +144,17 @@
 #text-area::placeholder {
   color: #fff;
 }
+#btn-sub {
+  color: #fff;
+  width: 98px;
+  position: absolute;
+  margin-left: 500px;
+  margin-top: -50px;
+}
+#btn-sub:hover {
+  background-color: #fff;
+  color: #000;
+}
+.modal  {
+  text-align: center;
+}

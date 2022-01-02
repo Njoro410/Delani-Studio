@@ -1,5 +1,43 @@
+  function submit() {
+    var jina = document.getElementById("name").value;
+    document.getElementById("outName").innerText = jina;
+      
+   } ;
+   
+   
+   
 
-  $(document).ready(function() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   $(document).ready(function() {
+
+    $("#btn-sub").click(function() {
+      $("#feedbackModal").modal('show');
+    })
+    $(".btn-close").click(function() {
+      location.reload();
+    })
+
+
     $("#design").click(function() {
       $(".wwd-description1").toggle();
       $(".wwd-icons1").toggle();
@@ -20,26 +58,22 @@
     });
     $("#work3").hover(function() {
       $("#project-name3").toggle();
-    });
+    })
     $("#work4").hover(function() {
       $("#project-name4").toggle();
-    });
+    })
     $("#work5").hover(function() {
       $("#project-name5").toggle();
-    });
+    })
     $("#work6").hover(function() {
       $("#project-name6").toggle();
-    });
+    })
     $("#work7").hover(function() {
       $("#project-name7").toggle();
-    });
+    })
     $("#work8").hover(function() {
       $("#project-name8").toggle();
-    });
-
-
-
-
+    })
   });
 
   
