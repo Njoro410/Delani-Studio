@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .centered {
   position: absolute;
   left: 50%;
@@ -225,7 +230,7 @@
 }
 
 
-@media screen and (min-width: 200px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .centered {
     position: absolute;
     left: 50%;
@@ -239,22 +244,22 @@
   }
 
   #heading1 {
-    top: 20%;
+    top: 15%;
     font-size: 20px;
   }
 
   #heading2 {
-    top: 25%;
+    top: 16%;
     font-size: 15px;
   }
 
   #paragraph {
-    top: 30%;
+    top: 18%;
     font-size: 10px;
   }
 
   #mouse-click {
-    top: 38%;
+    top: 23%;
   }
 
   #services-heading {
@@ -500,5 +505,39 @@
     color: #000;
   }
 
+
+}
+
+@media screen and (min-width: 1024px) {
+  .centered {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+
+  #logo {
+    top: 40%;
+
+  }
+
+  #heading1 {
+    top: 60%;
+    font-size: 45px;
+  }
+
+  #heading2 {
+    top: 70%;
+    font-size: 30px;
+  }
+
+  #paragraph {
+    top: 80%;
+    font-size: 18px;
+  }
+
+  #mouse-click {
+    top: 110%;
+  }
 
 }
