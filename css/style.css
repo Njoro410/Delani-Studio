@@ -225,7 +225,7 @@
 }
 
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 200px) and (max-width: 767px) {
   .centered {
     position: absolute;
     left: 50%;
