@@ -182,6 +182,9 @@ body {
   position: absolute;
   bottom: .1px;
 }
+.contact-p3 {
+  display: none;
+}
 
 .form-input {
   width: 250%;
@@ -244,22 +247,22 @@ body {
   }
 
   #heading1 {
-    top: 15%;
+    top: 22%;
     font-size: 20px;
   }
 
   #heading2 {
-    top: 16%;
+    top: 25%;
     font-size: 15px;
   }
 
   #paragraph {
-    top: 18%;
+    top: 32%;
     font-size: 10px;
   }
 
   #mouse-click {
-    top: 23%;
+    top: 38%;
   }
 
   #services-heading {
@@ -306,7 +309,7 @@ body {
   }
 
   #contact-heading {
-    top: 3770px;
+    top: 1980px;
   }
 
   .contact-p {
@@ -323,6 +326,13 @@ body {
   .contact-p2 {
     position: absolute;
     bottom: .1px;
+    display: none;
+  }
+  .contact-p3 {
+    position: absolute;
+    bottom: .1px;
+    width: 250%;
+    display: flex;
   }
 
   .form-input {
@@ -337,7 +347,6 @@ body {
   }
 
   #text-area {
-    display: none;
     resize: none;
     margin-bottom: 10px;
     width: 20%;
@@ -447,7 +456,6 @@ body {
 
   #contact-heading {
     top: 2005px;
-
   }
 
   .contact-p {
@@ -458,12 +466,14 @@ body {
   .contact-p1 {
     position: absolute;
     bottom: 180px;
-
   }
 
   .contact-p2 {
     position: absolute;
     bottom: -100px;
+  }
+  .contact-p3 {
+    display: none;
   }
 
   .form-input {
