@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 body {
   font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
 }
 
 .centered {
@@ -16,16 +17,17 @@ body {
 
 #heading1 {
   top: 61%;
-  font-size: 50px;
+  font-size: 4.2vw;
 }
 
 #heading2 {
   top: 75%;
-  font-size: 50px;
+  font-size: 3.2vw;
 }
 
 #paragraph {
   top: 85%;
+  font-size: 1.4vw;
 }
 
 #mouse-click {
@@ -36,8 +38,11 @@ body {
   text-align: center;
 }
 
-#title {
+.title {
   margin-top: 50px;
+  text-align: center;
+  font-size: 3vw;
+
 }
 
 #services-heading {
@@ -45,19 +50,19 @@ body {
 }
 
 #paragraph2 {
-  margin-top: -175px;
+  margin-top: -170px;
   color: #fff;
-  font-size: medium;
+  font-size: 1.25vw;
 }
 
 #paragraph3 {
   color: #fff;
-  font-size: medium;
+  font-size: 1.25vw;
 }
 
 #paragraph4 {
   color: #fff;
-  font-size: medium;
+  font-size: 1.25vw;
 }
 
 #wwd-heading {
@@ -107,10 +112,6 @@ body {
 
 .img-sec {
   margin-top: 50px;
-}
-
-#contact-heading {
-  margin-top: -400px;
 }
 
 #con-soc-icons {
@@ -166,57 +167,48 @@ body {
 
 #form {
   position: relative;
+  
 }
 
-.contact-p {
+.contact-title {
   position: absolute;
-  bottom: 320px;
+  bottom: 400px;
+  right: 560px;
+  color: #fff;
+  font-size: 3vw;
 }
-
-.contact-p1 {
+.inputs {
   position: absolute;
-  bottom: 320px;
-}
-
-.contact-p2 {
-  position: absolute;
-  bottom: .1px;
-}
-.contact-p3 {
-  display: none;
-}
-
-.form-input {
-  width: 250%;
   background: transparent;
-  border-color: #fff;
   color: #fff;
 }
-
-.form-input::placeholder {
-  color: #fff;
+#name {
+  bottom: 350px;
+  left: 100px;
+  width: 500px; 
+}
+#email {
+  bottom: 350px;
+  left: 700px;
+  width: 500px;
+}
+#t-area {
+  bottom: 90px;
+  left: 150px;
+  width: 950px;
+  height: 250px;
 }
 
-#text-area {
-  resize: none;
-  margin: 50px;
-  width: 320%;
-  background: transparent;
-  border-color: #fff;
-  color: #fff;
-
-}
-
-#text-area::placeholder {
+.inputs::placeholder {
   color: #fff;
 }
 
 #btn-sub {
   color: #fff;
-  width: 98px;
+  width: 50%;
   position: absolute;
-  margin-left: 500px;
-  margin-top: -50px;
+  left: 25%;
+  top: -50px;
 }
 
 #btn-sub:hover {
@@ -234,6 +226,7 @@ body {
 
 
 @media screen and (max-width: 767px) {
+
   .centered {
     position: absolute;
     left: 50%;
@@ -248,44 +241,54 @@ body {
 
   #heading1 {
     top: 22%;
-    font-size: 20px;
+
   }
 
   #heading2 {
     top: 25%;
-    font-size: 15px;
+
+  }
+  .bodyheadings {
+    font-size: 2.5vw;
   }
 
   #paragraph {
     top: 32%;
-    font-size: 10px;
+    font-size: 1.4vw;
+    
   }
 
   #mouse-click {
     top: 38%;
   }
 
-  #services-heading {
-    margin-top: -98px;
-    font-size: 5px;
+  #services-heading  {
+    margin-top: -110px;
+    
   }
 
   #paragraph2 {
-    margin-top: -100px;
+    margin-top: -90px;
     color: #fff;
-    font-size: smaller;
+    font-size: 2.1vw;
   }
 
   #paragraph3 {
     margin-top: -20px;
     color: #fff;
-    font-size: smaller;
+    font-size: 2.1vw;
   }
 
   #paragraph4 {
     margin-top: -18px;
     color: #fff;
-    font-size: smaller;
+    font-size: 2.1vw;
+  }
+  #wwd-heading {
+    font-size: 3.5vw;
+  }
+  #portfolio-heading {
+    font-size: 3.5vw;
   }
 
   .col-sm-4 {
@@ -304,74 +307,53 @@ body {
     right: 80px;
   }
 
-  #form {
-    position: relative;
-  }
-
-  #contact-heading {
-    top: 1980px;
-  }
-
-  .contact-p {
+  .contact-title {
     position: absolute;
+    bottom: 130px;
+    right: 200px;
+    font-size: 3vw;
+  }
+  .inputs {
+    position: absolute;
+    background: transparent;
+    color: #fff;
+  }
+  #name {
     bottom: 100px;
+    left: 20px;
+    width: 40%; 
   }
-
-  .contact-p1 {
-    position: absolute;
+  #email {
     bottom: 100px;
     left: 250px;
+    width: 40%;
   }
-
-  .contact-p2 {
-    position: absolute;
-    bottom: .1px;
-    display: none;
+  #t-area {
+    resize: horizontal;
+    bottom: 30px;
+    left: 20px;
+    width: 60%;
+    height: 50px;
+    
   }
-  .contact-p3 {
-    position: absolute;
-    bottom: .1px;
-    width: 250%;
-    display: flex;
-  }
-
-  .form-input {
-    width: 80%;
-    background: transparent;
-    border-color: #fff;
+  
+  .inputs::placeholder {
     color: #fff;
   }
-
-  .form-input::placeholder {
-    color: #fff;
-  }
-
-  #text-area {
-    resize: none;
-    margin-bottom: 10px;
-    width: 20%;
-    background: transparent;
-    border-color: #fff;
-    color: #fff;
-
-  }
-
-  #text-area::placeholder {
-    color: #fff;
-  }
-
+  
   #btn-sub {
     color: #fff;
-    width: 98px;
+    width: 20%;
     position: absolute;
-    margin-left: 295px;
-    margin-top: -40px;
+    left: 75%;
+    top: -40px;
   }
-
+  
   #btn-sub:hover {
     background-color: #fff;
     color: #000;
   }
+  
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -389,17 +371,18 @@ body {
 
   #heading1 {
     top: 25%;
-    font-size: 45px;
+    
+    
   }
 
   #heading2 {
     top: 35%;
-    font-size: 30px;
+    
   }
 
   #paragraph {
     top: 48%;
-    font-size: 18px;
+    
   }
 
   #mouse-click {
@@ -407,26 +390,29 @@ body {
   }
 
   #services-heading {
-    margin-top: -160px;
-    font-size: 5px;
+    margin-top: -180px;
+    
   }
 
   #paragraph2 {
     margin-top: -150px;
     color: #fff;
-    font-size: smaller;
+    font-size: 1.5vw;
+    
   }
 
   #paragraph3 {
     margin-top: -15px;
     color: #fff;
-    font-size: small;
+    font-size: 1.5vw;
+    
   }
 
   #paragraph4 {
     margin-top: -1px;
     color: #fff;
-    font-size: small;
+    font-size: 1.5vw;
+    
   }
 
   .col-sm-4 {
@@ -449,67 +435,48 @@ body {
     bottom: 50px;
     right: 15px;
   }
-
-  #form {
-    position: relative;
-  }
-
-  #contact-heading {
-    top: 2005px;
-  }
-
-  .contact-p {
+  .contact-title {
     position: absolute;
-    bottom: 180px;
+    bottom: 250px;
+    right: 350px;
+    font-size: 3vw;
   }
-
-  .contact-p1 {
+  .inputs {
     position: absolute;
-    bottom: 180px;
-  }
-
-  .contact-p2 {
-    position: absolute;
-    bottom: -100px;
-  }
-  .contact-p3 {
-    display: none;
-  }
-
-  .form-input {
-    width: 80%;
     background: transparent;
-    border-color: #fff;
     color: #fff;
   }
-
-  .form-input::placeholder {
+  #name {
+    bottom: 200px;
+    left: 20px;
+    width: 40%; 
+  }
+  #email {
+    bottom: 200px;
+    left: 450px;
+    width: 40%;
+  }
+  #t-area {
+    resize: horizontal;
+    bottom: 20px;
+    left: 20px;
+    width: 70%;
+    height: 150px;
+    
+  }
+  
+  .inputs::placeholder {
     color: #fff;
   }
-
-  #text-area {
-
-    resize: none;
-    margin-bottom: 10px;
-    width: 20%;
-    background: transparent;
-    border-color: #fff;
-    color: #fff;
-
-  }
-
-  #text-area::placeholder {
-    color: #fff;
-  }
-
+  
   #btn-sub {
     color: #fff;
-    width: 98px;
+    width: 20%;
     position: absolute;
-    margin-left: 600px;
-    margin-top: -45px;
+    left: 75%;
+    top: -40px;
   }
-
+  
   #btn-sub:hover {
     background-color: #fff;
     color: #000;
@@ -533,21 +500,22 @@ body {
 
   #heading1 {
     top: 60%;
-    font-size: 45px;
+    
   }
 
   #heading2 {
     top: 70%;
-    font-size: 30px;
+    
   }
 
   #paragraph {
     top: 80%;
-    font-size: 18px;
+    
   }
 
   #mouse-click {
     top: 110%;
   }
+  
 
 }
