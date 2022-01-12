@@ -161,8 +161,8 @@ body {
   right: 50px;
   background-color: white;
   color: black;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #form {
@@ -287,6 +287,11 @@ body {
   #wwd-heading {
     font-size: 3.5vw;
   }
+  
+  #con-port {
+    width: 100%;
+    height: auto;
+  }
   #portfolio-heading {
     font-size: 3.5vw;
   }
@@ -303,8 +308,10 @@ body {
   #project-name6,
   #project-name7,
   #project-name8 {
-    bottom: 90px;
-    right: 80px;
+    bottom: 50px;
+    right: 30px;
+    color: #fff;
+    background-color: #000;
   }
 
   .contact-title {
@@ -437,14 +444,10 @@ body {
   }
   .contact-title {
     position: absolute;
-    bottom: 250px;
+    bottom: 230px;
     right: 350px;
     font-size: 3vw;
-  }
-  .inputs {
-    position: absolute;
-    background: transparent;
-    color: #fff;
+   
   }
   #name {
     bottom: 200px;
@@ -453,7 +456,7 @@ body {
   }
   #email {
     bottom: 200px;
-    left: 450px;
+    left: 350px;
     width: 40%;
   }
   #t-area {
@@ -485,37 +488,3 @@ body {
 
 }
 
-@media screen and (min-width: 1024px) {
-  .centered {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-  }
-
-  #logo {
-    top: 40%;
-
-  }
-
-  #heading1 {
-    top: 60%;
-    
-  }
-
-  #heading2 {
-    top: 70%;
-    
-  }
-
-  #paragraph {
-    top: 80%;
-    
-  }
-
-  #mouse-click {
-    top: 110%;
-  }
-  
-
-}

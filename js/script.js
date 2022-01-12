@@ -11,7 +11,7 @@ $(document).ready(function() {
     $("#feedbackModal").modal('show');
   })
   $(".btn-close").click(function() {
-    location.reload();
+    resetFields();
   })
 
 
@@ -52,3 +52,4 @@ $(document).ready(function() {
     $("#project-name8").toggle();
   })
 });
+

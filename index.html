@@ -15,7 +15,7 @@
       type="text/css"
     />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <link rel="icon" href="assets/logo/logo.png" type="image/png">
+    <link rel="icon" href="assets/logo/logo.png" type="image/png"/>
     <title>Delani Studio</title>
   </head>
   <body>
@@ -218,7 +218,7 @@
           <div class="row">
             <div class="col-sm-12" id="form">
               <h3 class="contact-title" id="c-heading">CONTACT US</h3>
-              <form>
+              <form action="/subscribe" method="POST">
                 <input class="inputs" id="name" type="text" placeholder="Name...">
                 <input class="inputs" id="email" type="text" placeholder="Email...">
                 <textarea class="inputs" id="t-area" name="comment" placeholder="Your message here..."></textarea>
@@ -262,14 +262,17 @@
         <h5 class="modal-title">Delani Studio</h5>
       </div>
       <div class="modal-body">
-        <strong><span id="outName"></span></strong>, we have received your message. Thank you fro reaching out to us. 
+        <strong><span id="outName"></span></strong>, we have received your message. Thank you for reaching out to us. 
       </div>
       <div class="modal-footer">
-        <button type="button" id="btn-close" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="submit" id="btn-close" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
  </div> 
+
+
+ 
 
 
 
